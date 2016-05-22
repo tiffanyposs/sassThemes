@@ -1,0 +1,24 @@
+{
+  "name": "sasstheme",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tiffany Poss",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
+    "nodemon": "^1.9.2"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "sass",
+    "node",
+    "node.js",
+    "handlebars",
+    "express"
+  ],
+  "description": ""
+}
