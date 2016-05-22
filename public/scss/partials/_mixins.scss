@@ -1,0 +1,10 @@
+// imports google fonts
+@mixin google-font($font) {
+  $font: unquote($font);
+  @import url(https://fonts.googleapis.com/css?family=#{$font});
+}
+
+// makes a circle
+@mixin circle($radius: 50%) {
+	border-radius: $radius;
+}

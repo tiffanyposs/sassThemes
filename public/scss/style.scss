@@ -1,0 +1,51 @@
+@import "partials/functions";
+@import "partials/variables";
+@import "partials/mixins";
+
+
+@include google-font("Lustria");
+@include google-font("Muli:400,300,300italic,400italic");
+
+html, body {
+	height: 100%;
+}
+// box model
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $headline-font;
+}
+
+p {
+	font-family: $text-font;
+}
+
+.headline {
+	background-color: $first-color;
+	padding: 100px 0px;
+
+	.user {
+
+	  text-align: center;
+
+	  .name {
+		text-transform: capitalize;
+	  }
+
+	  img {
+		width: 150px;
+		@include circle;
+		border: 6px solid $second-color;
+	  }
+
+	}
+
+}
+
+
+#map { height: 100%; width: 500px; }

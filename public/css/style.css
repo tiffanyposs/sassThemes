@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css?family=Lustria);
+@import url(https://fonts.googleapis.com/css?family=Muli:400,300,300italic,400italic);
+html, body {
+  height: 100%; }
+
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lustria", serif; }
+
+p {
+  font-family: "Muli", sans-serif; }
+
+.headline {
+  background-color: red;
+  padding: 100px 0px; }
+  .headline .user {
+    text-align: center; }
+    .headline .user .name {
+      text-transform: capitalize; }
+    .headline .user img {
+      width: 150px;
+      border-radius: 50%;
+      border: 6px solid white; }
+
+#map {
+  height: 100%;
+  width: 500px; }
+
+/*# sourceMappingURL=style.css.map */
