@@ -21,6 +21,7 @@ app.get('/', function (req, res) {
 	  	var object = {}
 	  	object.user = JSON.parse(body).results[0];
 	  	object.googleKey = config.googleKey;
+	  	console.log(object);
 	  	res.render('home', object);
 	  } else {
 	  	res.render('error')
